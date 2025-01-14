@@ -1,0 +1,81 @@
+.mem__inner{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.mem__title{
+    font-size: 3.2em;
+}
+.mem__info{
+    background-color: #34312D;
+    color: white;
+    padding: 32px 24px;
+    border-radius: 10px;
+    min-width: 302px;
+    max-width: 302px;
+}
+.mem__object{
+    font-size: 20px;
+    font-weight: 500;
+}
+.mem__top{
+    margin-bottom: 28px;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mem__subtitle{
+    font-size: 16px;
+    font-weight: 400;
+}
+.mem__jam{
+    width: 71px;
+    height: 71px;
+    background: url(/img/Group.svg) no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.mem__infos{
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.img{
+    max-width: 100%;
+    width: 100%;
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+.mem__ml{
+    margin: 20px 20px 0;
+    p{
+        max-width: 500px;
+    }
+}
+
+
+@media (max-width: 480px){
+    .mem__title{
+        margin-left: 20px;
+        font-weight: 400;
+    }
+    .mem__infos{
+        flex-wrap: nowrap;
+        margin-left: 20px;
+    }
+    .mem{
+        .container{
+            padding: 0;
+        }
+    }
+}

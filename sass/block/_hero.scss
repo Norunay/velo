@@ -1,0 +1,31 @@
+.hero__title{
+    font-size: 6.2em;
+}
+.hero__inner{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 100%;
+}
+.hero__wrapper{
+    max-width: 679px;
+}
+.hero__subtitle{
+    font-weight: 300;
+    margin-top: 46px;
+}
+.hero{
+    height: 875px;
+    color: white;
+    background: url(/img/1.png) no-repeat;
+    background-position: center;
+    background-size: cover
+}
+
+
+
+@media (max-width: 480px) {
+    .hero__title{
+        font-size: 3em
+    }
+}
